@@ -11,7 +11,7 @@ import requests
 import json
 
 
-APIKEY = '5YY9RV8SODFP8FEA'
+APIKEY = 'demo'
 #replace 'my_alphav_api_key' with your actual Alpha Vantage API key obtained from https://www.alphavantage.co/support/#api-key
 
 

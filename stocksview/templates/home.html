@@ -5,16 +5,76 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Stock Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+          }
+
+          h2 {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+
+          label, input[type="button"] {
+            font-weight: bold;
+          }
+
+          #input {
+            text-align: center;
+          }
+
+          #ticker-input {
+            width: 200px;
+            margin-right: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+
+          #submit-btn {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+          }
+
+          #graph-area {
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          canvas {
+            border: 1px solid #ccc;
+          }
+
+          div {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 20px;
+          }
+
+          a {
+            color: #333;
+            text-decoration: underline;
+          }
+    </style>
 </head>
 
 <body>
 <h2>Stock Visualizer</h2>
 <br>
 
-<label for="ticker-input">Enter Symbol:</label>
+<div id='input'>
+<label for="ticker-input">Enter Ticker:</label>
 <input type="text" id="ticker-input">
 <input type="button" value="submit" id="submit-btn">
+<p>Enter a ticker symbol to see the stock price and simple moving average (SMA) of the stock over the past 500 trading days. </p>
+</div>
 <br>
+
 
 <div id="graph-area" style="height:80%; width:80%;">
 <canvas id="myChart"></canvas>
