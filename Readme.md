@@ -6,7 +6,7 @@ Run pipenv:
 ```
 pipenv shell
 ```
-##### Add your api key in view/views.py
+#### Add your api key in view/views.py
 
 Run local server:
 ```
