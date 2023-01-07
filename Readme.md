@@ -1,6 +1,6 @@
 ## Getting stocks with Alpha Vantage API and vizualing on a full stack django application
 
-![website]( website.png )
+![website]( img.png )
 
 Clone the repo:
 ```
