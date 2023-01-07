@@ -1,5 +1,7 @@
 ## Getting stocks with Alpha Vantage API and vizualing on a full stack django application
 
+![website]( website.png )
+
 Clone the repo:
 ```
 git clone https://github.com/sergio-abu/Django-Stocks-Visualizer.git
