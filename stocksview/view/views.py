@@ -12,11 +12,11 @@ import json
 
 
 APIKEY = 'demo'
-#replace 'my_alphav_api_key' with your actual Alpha Vantage API key obtained from https://www.alphavantage.co/support/#api-key
+# REPLACE THIS KEY WITH YOUR KEY FROM https://www.alphavantage.co/support/#api-key
 
 
 DATABASE_ACCESS = True
-#if False, the app will always query the Alpha Vantage APIs regardless of whether the stock data for a given ticker is already in the local database
+# if False, the app will always query the Alpha Vantage APIs regardless of whether the stock data for a given ticker is already in the local database
 
 
 # function to replace is_ajax() method in Django 4.1
