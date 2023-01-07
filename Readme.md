@@ -6,9 +6,10 @@ Run pipenv:
 ```
 pipenv shell
 ```
-#### Add your api key in view/views.py
+#### Add your api key in view/views.py.
 
-Run local server:
+
+Then run local server:
 ```
 python manage.py runserver
 ```
