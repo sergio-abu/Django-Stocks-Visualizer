@@ -1,4 +1,4 @@
-# Getting stocks with Alpha Vantage API and vizualing on a full stack django application
+## Getting stocks with Alpha Vantage API and vizualing on a full stack django application
 
 Clone the repo:
 ```
