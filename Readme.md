@@ -1,4 +1,4 @@
-## Getting stocks with Alpha Vantage API and vizualing on a full stack django application
+## Getting stocks from Alpha Vantage API and vizualing on a full stack django application
 
 ![website]( img.png )
 
