@@ -14,7 +14,7 @@ pipenv shell
 #### Add your api key in view/views.py.
 
 
-Then run local server (inside pipenv):
+Then run local server (inside environment):
 ```
 python manage.py runserver
 ```
