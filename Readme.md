@@ -8,12 +8,13 @@ git clone https://github.com/sergio-abu/Django-Stocks-Visualizer.git
 ```
 Run pipenv:
 ```
+pipenv install
 pipenv shell
 ```
 #### Add your api key in view/views.py.
 
 
-Then run local server:
+Then run local server (inside pipenv):
 ```
 python manage.py runserver
 ```
